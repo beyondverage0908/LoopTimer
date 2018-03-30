@@ -7,7 +7,7 @@
 1. Independent of NSRunLoop
 2. No retain cycle
 3. Support dynamically changing timer interval
-4. Support clourese synax
+4. Support closure synax
 5. Support GCD queue
 
 

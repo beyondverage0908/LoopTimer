@@ -63,6 +63,11 @@ class ViewController: UIViewController {
         timer.pause()
         // you can active timer
         timer.active()
+        
+        // MARK: - dynamically changing handler
+        timer.repeatHandler { (timer) in
+            print("repeatHandler")
+        }
     }
 
     override func didReceiveMemoryWarning() {
